@@ -1,0 +1,75 @@
+/* SVG styling */
+svg {
+	width: 1528px;
+	height: 918px;
+}
+body{
+	background: linear-gradient(to bottom, #ffffff 80%,#40da8c 86%,#3d9491 92%,#3d9491 30%);
+
+}
+#status{
+    position: absolute;
+    font-style: oblique;
+    color: cadetblue;
+    font-size: 20px;
+    top: 20%;
+    left: 35%;
+    background-color: white;
+}
+#status2{
+    position: absolute;
+    font-style: oblique;
+    color: cadetblue;
+    font-size: 20px;
+    top: 20%;
+    left: 50%;
+    background-color: white;
+}
+
+line{
+    stroke-linecap: round;
+    animation-name: wind;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    transform-origin: bottom;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+.leaves{
+    animation-name: wind;
+    animation-delay: 0s;
+    animation-duration: 5s;
+    transform-origin: bottom;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wind{
+    0% {
+        transform: skewX(-8deg) skewY(5deg);
+     }
+     100% {
+        transform: skewX(0deg) skewY(0deg);
+     }
+}
+button {
+    color: white;
+    background-color: darkslategray;
+    border-radius: 10%;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 800;
+    height: 115px;
+}
+button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: #65b7b7;
+}
+.btn-generate{
+    left: 35%;
+    top: 5%;
+}
+.btn-update{
+    left: 50%;
+    top: 5%;
+}
