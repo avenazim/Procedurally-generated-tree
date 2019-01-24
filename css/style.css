@@ -47,9 +47,17 @@ line{
 @keyframes wind{
     0% {
         transform: skewX(-8deg) skewY(5deg);
+	-moz-transform: skewX(-8deg) skewY(5deg);
+	-webkit-transform: skewX(-8deg) skewY(5deg);
+	-ms-transform: skewX(-8deg) skewY(5deg);
+	-o-transform: skewX(-8deg) skewY(5deg);
      }
      100% {
         transform: skewX(0deg) skewY(0deg);
+	-moz-transform: skewX(0deg) skewY(0deg);
+	-webkit-transform: skewX(0deg) skewY(0deg);
+	-ms-transform: skewX(0deg) skewY(0deg);
+	-o-transform: skewX(0deg) skewY(0deg);
      }
 }
 button {
