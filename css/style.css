@@ -40,27 +40,6 @@ line{
 	-webkit-transform-origin: bottom;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-iteration-count: infinite;
-	
-	-moz-animation-name: wind;
-	-moz-animation-delay: 0s;
-	-moz-animation-duration: 5s;
-	-moz-transform-origin: bottom;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count: infinite;
-	
-	-o-animation-name: wind;
-	-o-animation-delay: 0s;
-	-o-animation-duration: 5s;
-	-o-transform-origin: bottom;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count: infinite;
-	
-	-ms-animation-name: wind;
-	-ms-animation-delay: 0s;
-	-ms-animation-duration: 5s;
-	-ms-transform-origin: bottom;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count: infinite;
 }
 .leaves{
     animation-name: wind;
@@ -76,33 +55,6 @@ line{
 	-webkit-animation-direction: alternate;
 	-webkit-animation-iteration-count: infinite;
 	
-	-webkit-animation-name: wind;
-	-webkit-animation-delay: 0s;
-	-webkit-animation-duration: 5s;
-	-webkit-transform-origin: bottom;
-	-webkit-animation-direction: alternate;
-	-webkit-animation-iteration-count: infinite;
-	
-	-moz-animation-name: wind;
-	-moz-animation-delay: 0s;
-	-moz-animation-duration: 5s;
-	-moz-transform-origin: bottom;
-	-moz-animation-direction: alternate;
-	-moz-animation-iteration-count: infinite;
-	
-	-o-animation-name: wind;
-	-o-animation-delay: 0s;
-	-o-animation-duration: 5s;
-	-o-transform-origin: bottom;
-	-o-animation-direction: alternate;
-	-o-animation-iteration-count: infinite;
-	
-	-ms-animation-name: wind;
-	-ms-animation-delay: 0s;
-	-ms-animation-duration: 5s;
-	-ms-transform-origin: bottom;
-	-ms-animation-direction: alternate;
-	-ms-animation-iteration-count: infinite;
 }
 
 @keyframes wind{
@@ -116,9 +68,11 @@ line{
 @-webkit-keyframes wind{
     0% {
         transform: skewX(-8deg) skewY(5deg);
+	    -webkit-transform: skewX(-8deg) skewY(5deg);
      }
      100% {
         transform: skewX(0deg) skewY(0deg);
+	     -webkit-transform: skewX(-8deg) skewY(5deg);
      }
 }
 button {
