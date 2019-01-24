@@ -34,6 +34,13 @@ line{
     transform-origin: bottom;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+	-webkit-animation-name: wind;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 5s;
+	-webkit-transform-origin: bottom;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
+	
 }
 .leaves{
     animation-name: wind;
@@ -42,6 +49,12 @@ line{
     transform-origin: bottom;
     animation-direction: alternate;
     animation-iteration-count: infinite;
+	-webkit-animation-name: wind;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-duration: 5s;
+	-webkit-transform-origin: bottom;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-iteration-count: infinite;
 }
 
 @keyframes wind{
