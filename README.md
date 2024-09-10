@@ -1,4 +1,4 @@
-# engineer_work
+# Procedurally generated tree
 
 This project is a source code for my engineering diploma thesis titled:
 
@@ -6,6 +6,8 @@ This project is a source code for my engineering diploma thesis titled:
 
 ### ***"VEGETATION GENERATION METHODS FOR COMPUTER GAMES AND VIZUALIZATIONS WITH LOW COMPUTATIONAL COMPLEXITY"***
 <br />
+
+[LINK TO LIVE VIEW](https://avenazim.github.io/Procedurally-generated-tree/)
 
 #### **Abstract**
  
